@@ -1,0 +1,158 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  /* Estilos de navegación */
+  
+  .navbar {
+    background-color: #f8f8f8;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #333;
+  }
+  
+  /* Estilos de secciones */
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-section {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .about-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos de footer */
+  
+  .footer-section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Otros estilos específicos de cada página */
+  
+  /* Página de inicio */
+  
+  .banner-section {
+    height: 400px;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .call-to-action-section {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .product-gallery-section {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  
+  .testimonials-section {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  /* Página de contacto */
+  
+  .contact-section {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Página de preguntas frecuentes */
+  
+  .faq-section {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .accordion-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .accordion-button.collapsed {
+    border-bottom: none;
+  }
+  
+  .accordion-body {
+    background-color: #fff;
+    padding: 15px;
+  }
+  
+  /* Página "Quiénes somos" */
+  
+  .about-section p {
+    margin-bottom: 20px;
+  }
+  
+  /* Otros estilos específicos de cada página */
+  
+  /* ... */
+  
+  

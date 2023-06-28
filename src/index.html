@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Café de Autor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tienda de Café</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reservas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <section id="banner" class="banner-section">
+    <div class="container">
+      <!-- Aquí puedes agregar un banner o un slider de imágenes -->
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="cta" class="cta-section">
+    <div class="container">
+      <h2>¡Descubre nuestro café de autor!</h2>
+      <p>Realiza tu pedido en línea y disfruta del mejor café.</p>
+      <a class="btn btn-primary" href="#">Pide en línea</a>
+    </div>
+  </section>
+
+  <!-- Sección de pastillas de información -->
+  <section id="info" class="info-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="info-item">
+            <img src="icono1.png" alt="Icono 1">
+            <h3>Descubre nuestros orígenes</h3>
+            <p>Conoce la historia detrás de cada grano de café que ofrecemos.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="info-item">
+            <img src="icono2.png" alt="Icono 2">
+            <h3>Eventos y promociones</h3>
+            <p>Entérate de nuestros eventos especiales y promociones exclusivas.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="info-item">
+            <img src="icono3.png" alt="Icono 3">
+            <h3>Métodos de preparación</h3>
+            <p>Descubre diferentes formas de preparar el café perfecto.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería de Productos -->
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <h2>Nuestros productos destacados</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="gallery-item">
+            <img src="producto1.jpg" alt="Producto 1">
+            <div class="caption">
+              <h4>Café en grano</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="gallery-item">
+            <img src="producto2.jpg" alt="Producto 2">
+            <div class="caption">
+              <h4>Cafeteras</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="gallery-item">
+            <img src="producto3.jpg" alt="Producto 3">
+            <div class="caption">
+              <h4>Implementos de cafetería</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoniales -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <h2>Testimoniales</h2>
+      <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="testimonial-item">
+              <img src="cliente1.jpg" alt="Cliente 1">
+              <p>"El café de esta tienda es simplemente increíble. ¡Lo recomiendo totalmente!"</p>
+              <h5>Cliente Satisfecho</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial-item">
+              <img src="cliente2.jpg" alt="Cliente 2">
+              <p>"Excelente atención al cliente y productos de alta calidad. ¡Volveré por más!"</p>
+              <h5>Otro Cliente Feliz</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <p>Datos Personales y de Cursada:</p>
+          <ul>
+            <li>Nombres: Nombre Apellido</li>
+            <li>Materias: Materia 1, Materia 2</li>
+            <li>Comisión: Comisión 1</li>
+            <li>Año de Cursada: Año 2023</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <p>Síguenos en nuestras redes sociales:</p>
+          <div class="social-media">
+            <a href="#" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+          </div>
+        </div>
+      </div>
+      <p>Todos los derechos reservados &copy; 2023 Tienda de Café de Autor</p>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
