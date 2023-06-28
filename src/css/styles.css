@@ -4,6 +4,7 @@ body {
     font-family: 'Jost', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #E5E5CB;
   }
   
   .container {
@@ -13,17 +14,17 @@ body {
   }
   
   h1, h2, h3 {
-    color: #333;
+    color: #1A120B;
   }
   
   p {
-    color: #666;
+    color: #3C2A21;
   }
   
   /* Estilos de navegación */
   
   .navbar {
-    background-color: #f8f8f8;
+    background-color: #D5CEA3;
   }
   
   .navbar-brand {
@@ -31,7 +32,7 @@ body {
   }
   
   .nav-link {
-    color: #333;
+    color: #1A120B;
   }
   
   /* Estilos de secciones */
@@ -43,7 +44,7 @@ body {
   
   .about-section {
     padding: 60px 0;
-    background-color: #f8f8f8;
+    background-color: #D5CEA3;
   }
   
   .about-section h2 {
@@ -53,7 +54,7 @@ body {
   /* Estilos de footer */
   
   .footer-section {
-    background-color: #333;
+    background-color: #1A120B;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -72,7 +73,7 @@ body {
   
   .call-to-action-section {
     padding: 60px 0;
-    background-color: #f8f8f8;
+    background-color: #D5CEA3;
     text-align: center;
   }
   
@@ -83,7 +84,7 @@ body {
   
   .testimonials-section {
     padding: 60px 0;
-    background-color: #f8f8f8;
+    background-color: #D5CEA3;
     text-align: center;
   }
   
@@ -91,7 +92,7 @@ body {
   
   .contact-section {
     padding: 60px 0;
-    background-color: #f8f8f8;
+    background-color: #D5CEA3;
   }
   
   .contact-form {
@@ -108,7 +109,7 @@ body {
   
   .contact-form button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #1A120B;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -123,14 +124,14 @@ body {
   
   .faq-section {
     padding: 60px 0;
-    background-color: #f8f8f8;
+    background-color: #D5CEA3;
   }
   
   .accordion-button {
     background-color: #fff;
-    color: #333;
+    color: #1A120B;
     border: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #3C2A21;
     text-align: left;
     padding: 15px;
     cursor: pointer;
