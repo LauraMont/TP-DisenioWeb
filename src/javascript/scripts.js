@@ -76,3 +76,13 @@ contactForm.addEventListener('submit', function (event) {
     contactForm.reset(); // Limpiar el formulario después de enviarlo
   }
 });
+
+// Script para agregar productos al carrito
+var addToCartButtons = document.querySelectorAll('.btn-add-to-cart');
+addToCartButtons.forEach(function(button) {
+  button.addEventListener('click', function(event) {
+    var productId = button.dataset.productId;
+    // Agrega aquí la lógica para agregar el producto al carrito
+    console.log('Producto agregado al carrito:', productId);
+  });
+});
