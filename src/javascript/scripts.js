@@ -1,22 +1,22 @@
-$(document).ready(function() {
-    // Datos de ejemplo de productos
-    var products = [
-      {
-        name: "Café en grano",
-        image: "producto1.jpg",
-        description: "Descripción del café en grano"
-      },
-      {
-        name: "Cafeteras",
-        image: "producto2.jpg",
-        description: "Descripción de las cafeteras"
-      },
-      // Agrega más productos según sea necesario
-    ];
-  
-    // Agrega los productos al catálogo
-    $.each(products, function(index, product) {
-      var productHtml = `
+$(document).ready(function () {
+  // Datos de ejemplo de productos
+  var products = [
+    {
+      name: "Café en grano",
+      image: "producto1.jpg",
+      description: "Descripción del café en grano"
+    },
+    {
+      name: "Cafeteras",
+      image: "producto2.jpg",
+      description: "Descripción de las cafeteras"
+    },
+    // Agrega más productos según sea necesario
+  ];
+
+  // Agrega los productos al catálogo
+  $.each(products, function (index, product) {
+    var productHtml = `
         <div class="col-lg-4 col-md-6">
           <div class="product-item">
             <img src="${product.image}" alt="${product.name}">
@@ -25,10 +25,10 @@ $(document).ready(function() {
           </div>
         </div>
       `;
-      $("#productList").append(productHtml);
-    });
+    $("#productList").append(productHtml);
   });
-  
+});
+
 // Función para validar el formulario de contacto
 function validateContactForm() {
   const form = document.getElementById('contactForm');
@@ -79,8 +79,8 @@ contactForm.addEventListener('submit', function (event) {
 
 // Script para agregar productos al carrito
 var addToCartButtons = document.querySelectorAll('.btn-add-to-cart');
-addToCartButtons.forEach(function(button) {
-  button.addEventListener('click', function(event) {
+addToCartButtons.forEach(function (button) {
+  button.addEventListener('click', function (event) {
     var productId = button.dataset.productId;
     // Agrega aquí la lógica para agregar el producto al carrito
     console.log('Producto agregado al carrito:', productId);
