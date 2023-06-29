@@ -7,6 +7,7 @@
   <title>Tienda de Café de Autor</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style-index.css">
 </head>
 
 <body>
@@ -43,17 +44,27 @@
 
   <!-- Banner -->
   <section id="banner" class="banner-section">
-    <div class="container">
+    <div class="container  d-flex justify-content-center align-items-center">
+      <p class="banner-text">Un lugar de encuentro para los verdaderos amantes del café, donde podrás disfrutar de sabores únicos y llevar a casa los mejores granos.</p>
       <!-- Aquí puedes agregar un banner o un slider de imágenes -->
     </div>
   </section>
 
   <!-- Call to Action -->
-  <section id="cta" class="cta-section">
+  <section id="cta" class="cta-section py-5">
     <div class="container">
-      <h2>¡Descubre nuestro café de autor!</h2>
-      <p>Realiza tu pedido en línea y disfruta del mejor café.</p>
-      <a class="btn btn-primary" href="./html/productos.html">Pide en línea</a>
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+          <img src="./img/latteart2.jpg" alt="Icono 1" class="img-fluid">
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h2 class="mb-4">¡Descubre nuestro café de autor!</h2>
+          <p class="mb-4">Descubre nuestro café de autor y realiza tu pedido en línea. Desde los granos más exquisitos hasta los productos relacionados con el café, todo está a tu alcance con solo unos clics. No esperes más para disfrutar del sabor y aroma incomparables de nuestro café. ¡Haz tu pedido en línea ahora y déjate llevar por el placer del café de calidad!.</p>
+          <div class="text-center">
+            <a class="btn btn-primary btn-custom" href="./html/productos.html">Pide en línea</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -63,21 +74,21 @@
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="info-item">
-            <img src="icono1.png" alt="Icono 1">
+            <img src="./img/cafe10.jpg" alt="Icono 1">
             <h3>Descubre nuestros orígenes</h3>
             <p>Conoce la historia detrás de cada grano de café que ofrecemos.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="info-item">
-            <img src="icono2.png" alt="Icono 2">
+            <img src="./img/latteart3.jpg" alt="Icono 2">
             <h3>Eventos y promociones</h3>
             <p>Entérate de nuestros eventos especiales y promociones exclusivas.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="info-item">
-            <img src="icono3.png" alt="Icono 3">
+            <img src="./img/latteart4.jpg" alt="Icono 3">
             <h3>Métodos de preparación</h3>
             <p>Descubre diferentes formas de preparar el café perfecto.</p>
           </div>
@@ -93,7 +104,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="gallery-item">
-            <img src="producto1.jpg" alt="Producto 1">
+            <img src="./img/cafe11.jpg" alt="Producto 1">
             <div class="caption">
               <h4>Café en grano</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -102,7 +113,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="gallery-item">
-            <img src="producto2.jpg" alt="Producto 2">
+            <img src="./img/producto2.jpg" alt="Producto 2">
             <div class="caption">
               <h4>Cafeteras</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -111,7 +122,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="gallery-item">
-            <img src="producto3.jpg" alt="Producto 3">
+            <img src="./img/cafe8.jpg" alt="Producto 3">
             <div class="caption">
               <h4>Implementos de cafetería</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -129,17 +140,29 @@
       <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="testimonial-item">
-              <img src="cliente1.jpg" alt="Cliente 1">
-              <p>"El café de esta tienda es simplemente increíble. ¡Lo recomiendo totalmente!"</p>
-              <h5>Cliente Satisfecho</h5>
+            <div class="testimonial-item d-flex align-items-center">
+              <div class="image-container">
+                <img src="./img/cafe3.jpg" alt="Cliente 1">
+              </div>
+              <div class="text-container">
+                <div class="text-content">
+                  <p>"El café de esta tienda es simplemente increíble. ¡Lo recomiendo totalmente!"</p>
+                  <h5>Cliente Satisfecho</h5>
+                </div>
+              </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="testimonial-item">
-              <img src="cliente2.jpg" alt="Cliente 2">
-              <p>"Excelente atención al cliente y productos de alta calidad. ¡Volveré por más!"</p>
-              <h5>Otro Cliente Feliz</h5>
+            <div class="testimonial-item d-flex align-items-center">
+              <div class="image-container">
+                <img src="./img/cafe6.jpg" alt="Cliente 2">
+              </div>
+              <div class="text-container">
+                <div class="text-content">
+                  <p>"Excelente atención al cliente y productos de alta calidad. ¡Volveré por más!"</p>
+                  <h5>Otro Cliente Feliz</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -154,7 +177,8 @@
       </div>
     </div>
   </section>
-
+  
+  
   <!-- Footer -->
   <footer class="footer-section">
     <div class="container">

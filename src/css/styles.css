@@ -64,32 +64,6 @@ p {
 
 /* Otros estilos específicos de cada página */
 
-/* Página de inicio */
-
-.banner-section {
-  height: 400px;
-  background-image: url('banner.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.call-to-action-section {
-  padding: 60px 0;
-  background-color: #D5CEA3;
-  text-align: center;
-}
-
-.product-gallery-section {
-  padding: 60px 0;
-  background-color: #fff;
-}
-
-.testimonials-section {
-  padding: 60px 0;
-  background-color: #D5CEA3;
-  text-align: center;
-}
-
 /* Página de contacto */
 
 .contact-section {
