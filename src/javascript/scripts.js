@@ -86,3 +86,5 @@ addToCartButtons.forEach(function (button) {
     console.log('Producto agregado al carrito:', productId);
   });
 });
+
+//formulario
