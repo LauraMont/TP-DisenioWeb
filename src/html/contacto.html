@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Café de Autor - Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Tienda de Café</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">Preguntas Frecuentes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Formulario de Contacto -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <form id="contactForm" action="#" method="POST" novalidate>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre y Apellido</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Teléfono Celular</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]+" required>
+                            <div class="invalid-feedback">Por favor, ingrese solo números.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                            <div class="invalid-feedback">Por favor, ingrese una dirección de correo electrónico válida.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="message" name="message" maxlength="360" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+
+                </div>
+                <div class="col-lg-6">
+                    <h3>Visítanos</h3>
+                    <p>Nuestras tiendas:</p>
+                    <ul>
+                        <li>Tienda 1: Dirección 1</li>
+                        <li>Tienda 2: Dirección 2</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Datos Personales y de Cursada:</p>
+                    <li>Nombres: Laura Montaño, Romina Díaz, José Ignacio Rojas</li>
+                    <li>Materia: Desarrollo Web</li>
+                    <li>Comisión: ???</li>
+                    <li>Año de Cursada: 2023</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <p>Síguenos en nuestras redes sociales:</p>
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png"
+                                alt="Instagram"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                        <a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <p>Todos los derechos reservados &copy; 2023 Tienda de Café de Autor</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../javascript/scripts.js"></script>
+</body>
+
+</html>
