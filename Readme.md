@@ -1,10 +1,10 @@
 # TP-DisenioWeb
 
-_Este proyecto es un que tiene como tematica una cafeteria que realiza ventas de granos de cafe y productos relacionados al cafe._
+_Este proyecto tiene como temática una cafetería de especialidad que realiza ventas de granos de café y productos relacionados varios._
 
 ## Wireframes
 
-- [Pagina Inicio](https://wireframe.cc/uHzP0o)
+- [Página Inicio](https://wireframe.cc/uHzP0o)
 - [Quienes Somos](https://wireframe.cc/5G5LJV)
 - [Preguntas Frecuentes](https://wireframe.cc/BQDobn)
 - [Productos](https://wireframe.cc/wXDHxy)
