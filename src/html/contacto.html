@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo-coffee.png" type="image/x-icon">
     <title>Tienda de Café de Autor - Contacto</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
@@ -47,37 +48,33 @@
             <h2>Contacto</h2>
             <div class="row">
                 <div class="col-lg-6">
-                    <form id="contactForm" action="#" method="POST" novalidate>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Nombre y Apellido</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="phone" class="form-label">Teléfono Celular</label>
-                            <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]+" required>
-                            <div class="invalid-feedback">Por favor, ingrese solo números.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                            <div class="invalid-feedback">Por favor, ingrese una dirección de correo electrónico válida.
+                    <div class="registration-form">
+
+                        <form>
+                            <h3 class="text-center">Crear Cuenta:</h3>
+                            <div class="form-group">
+                                <input class="form-control item" type="text" name="username" maxlength="15" minlength="4" pattern="^[a-zA-Z0-9_.-]*$" id="username" placeholder="Nombre de usuario" required>
                             </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="message" name="message" maxlength="360" rows="5"
-                                required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </form>
+                            <div class="form-group">
+                                <input class="form-control item" type="password" name="password" minlength="6" id="password" placeholder="Contraseña" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control item" type="email" name="email" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block create-account" type="submit">Crear Cuenta</button>
+                            </div>
+                        </form>
+                    </div>
+                    
 
                 </div>
                 <div class="col-lg-6">
-                    <h3>Visítanos</h3>
+                    <h3>Visitanos</h3>
                     <p>Nuestras tiendas:</p>
                     <ul>
-                        <li>Tienda 1: Dirección 1</li>
-                        <li>Tienda 2: Dirección 2</li>
+                        <li>Tienda en Caba: Independencia 1745.</li>
+                        <li>Tienda en Pcia: Hipolito Yrigoyen 2436.</li>
                     </ul>
                 </div>
             </div>
@@ -92,18 +89,17 @@
                     <p>Datos Personales y de Cursada:</p>
                     <li>Nombres: Laura Montaño, Romina Díaz, José Ignacio Rojas</li>
                     <li>Materia: Desarrollo Web</li>
-                    <li>Comisión: ???</li>
+                    <li>Comisión: 2023</li>
                     <li>Año de Cursada: 2023</li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
                     <p>Síguenos en nuestras redes sociales:</p>
                     <div class="social-media">
-                        <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png"
-                                alt="Instagram"></a>
-                        <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="Facebook"></a>
-                        <a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="Twitter"></a>
-                    </div>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="../img/icono-insta.png" alt="Instagram" /></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="../img/icono-fb.png" alt="Facebook" /></a>
+                        <a href="https://twitter.com/" target="_blank"><img src="../img/icono-tw.png" alt="Twitter" /></a>
+                      </div>
                 </div>
             </div>
             <p>Todos los derechos reservados &copy; 2023 Tienda de Café de Autor</p>

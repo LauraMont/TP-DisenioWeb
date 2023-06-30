@@ -22,6 +22,32 @@ h3 {
 p {
   color: #3C2A21;
 }
+/*HEADER*/
+/* Hacer el header fijo */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+h2{
+  margin-top: 80px;
+  
+}
+/* Efecto hover en los botones del nav */
+.navbar-nav .nav-link:hover {
+  background-color: #f0f0f0;
+}
+
+/* Agregar un ligero color en los bordes del header */
+.navbar {
+  border-top: 3px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Estilos de navegación */
 
@@ -127,7 +153,101 @@ p {
 .about-section p {
   margin-bottom: 20px;
 }
+/*PRODUCTOS*/
+/* styles.css */
+
+.product-item {
+  position: relative;
+  display: inline-block;
+  width: 300PX;
+  margin: 5% 5%;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.product-item h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product-item p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #777;
+}
+
+.product-item button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.product-item button:hover {
+  background-color: #e0e0e0;
+}
 
 /* Otros estilos específicos de cada página */
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+/* Formulario*/
+.registration-form {
+  padding:50px 0;
+}
 
-/* ... */
+.registration-form form {
+  max-width:800px;
+  padding:50px 70px;
+  border-radius:10px;
+  box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+  background-color:#fff;
+}
+
+.registration-form form h3 {
+  font-weight:bold;
+  margin-bottom:30px;
+}
+
+.registration-form .item {
+  border-radius:10px;
+  margin-bottom:25px;
+  padding:10px 20px;
+}
+
+.registration-form .create-account {
+  border-radius:30px;
+  padding:10px 20px;
+  font-size:18px;
+  font-weight:bold;
+  background-color:#3f93ff;
+  border:none;
+  color:white;
+  margin-top:20px;
+}
+
+@media (max-width: 576px) {
+  .registration-form form {
+    padding:50px 20px;
+  }
+}
