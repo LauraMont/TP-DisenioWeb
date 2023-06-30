@@ -19,9 +19,10 @@ h3 {
   color: #1A120B;
 }
 
-p {
+body p {
   color: #3C2A21;
 }
+
 /*HEADER*/
 /* Hacer el header fijo */
 .navbar {
@@ -32,10 +33,10 @@ p {
   z-index: 1000;
 }
 
-h2{
+h2 {
   margin-top: 80px;
-  
 }
+
 /* Efecto hover en los botones del nav */
 .navbar-nav .nav-link:hover {
   background-color: #f0f0f0;
@@ -150,9 +151,11 @@ h2{
 
 /* Página "Quiénes somos" */
 
-.about-section p {
+.about-section,
+p {
   margin-bottom: 20px;
 }
+
 /*PRODUCTOS*/
 /* styles.css */
 
@@ -204,50 +207,55 @@ h2{
   background-color: #e0e0e0;
 }
 
-/* Otros estilos específicos de cada página */
 .social-media {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  
+
 }
-/* Formulario*/
+
 .registration-form {
-  padding:50px 0;
+  padding: 50px 0;
 }
 
 .registration-form form {
-  max-width:800px;
-  padding:50px 70px;
-  border-radius:10px;
-  box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
-  background-color:#fff;
+  max-width: 800px;
+  padding: 50px 70px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
 }
 
 .registration-form form h3 {
-  font-weight:bold;
-  margin-bottom:30px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .registration-form .item {
-  border-radius:10px;
-  margin-bottom:25px;
-  padding:10px 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  padding: 10px 20px;
 }
 
 .registration-form .create-account {
-  border-radius:30px;
-  padding:10px 20px;
-  font-size:18px;
-  font-weight:bold;
-  background-color:#3f93ff;
-  border:none;
-  color:white;
-  margin-top:20px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #3f93ff;
+  border: none;
+  color: white;
+  margin-top: 20px;
 }
+
+.footer-item {
+  text-align: left;
+  color: white;
+}
+
 
 @media (max-width: 576px) {
   .registration-form form {
-    padding:50px 20px;
+    padding: 50px 20px;
   }
 }
